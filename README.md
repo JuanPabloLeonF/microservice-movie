@@ -58,7 +58,7 @@ El microservicio utiliza las siguientes variables de entorno:
 
 #### 🔧 Servidor
 - `HOST`: Host del servidor (default: 0.0.0.0)
-- `PORT`: Puerto del servidor (default: 2000)
+- `PORT`: Puerto del servidor (default: 2001)
 - `DEBUG`: Modo debug (true/false)
 
 #### 🗄️ Base de Datos
@@ -126,8 +126,8 @@ Recuerda tener presente que se necesita un archivo `.env` en la raíz del proyec
 
 ## 📚 Documentación API
 La documentación de la API está disponible en:
-- 🌐 Swagger UI: http://localhost:2000/docs
-- 📄 Redoc: http://localhost:2000/redoc
+- 🌐 Swagger UI: http://localhost:2001/docs
+- 📄 Redoc: http://localhost:2001/redoc
 
 ## 🛡️ Seguridad
 El microservicio implementa:
