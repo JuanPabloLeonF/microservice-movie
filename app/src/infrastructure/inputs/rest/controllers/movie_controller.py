@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from app.src.application.dto.movie_response import MovieResponse
 from app.src.application.dto.request_movie import MovieRequest
 from app.src.application.handlers.i_handler_movie import IHandlerMovie
-from app.configuration.module_injector_user import ModuleInjectorMovie
+from app.configuration.module_injector_movie import ModuleInjectorMovie
 from app.src.infrastructure.inputs.rest.dto.movie_request_controller import MovieRequestForm
 from app.src.infrastructure.inputs.rest.mapper.mapper_controller_movie import IMapperControllerMovie
 
